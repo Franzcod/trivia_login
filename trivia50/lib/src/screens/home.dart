@@ -5,6 +5,13 @@ import 'package:giffy_dialog/giffy_dialog.dart';
 import 'package:trivia50/src/screens/login.dart';
 import 'package:trivia50/src/widgets/button-1.dart';
 
+
+// fffffffffffffffff
+// lllllllllllll
+// ppppppppppppppp
+// odjmklsdlfksdlkfjsd
+// okdmlfskdmlskmd
+
 class HomePage extends StatelessWidget {
   final auth = FirebaseAuth.instance;
 
@@ -93,6 +100,8 @@ class HomePage extends StatelessWidget {
                 SizedBox(height: 20),
                 Button1(
                     text: 'About Trivia 50', onPress: () => _about(context)),
+                    Button1(
+                    text: 'About Trivia 50', onPress: () => _about(context)),
               ],
             ),
           ),
@@ -105,6 +114,7 @@ class HomePage extends StatelessWidget {
     showDialog(
         context: context,
         builder: (_) => AssetGiffyDialog(
+          // hola buenardo
               image: Image.network(
                 'https://i.gifer.com/origin/f8/f8ffe5de155192cdf774140d6936938c_w200.webp',
               ),
